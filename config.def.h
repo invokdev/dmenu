@@ -17,8 +17,8 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOutHighlight] = { "#ebdbb2", "#8ec07c" },
 };
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
-static unsigned int lines      = 0;
-static unsigned int columns    = 4;
+static unsigned int lines      = 5;
+static unsigned int columns    = 3;
 
 /*
  * Characters not considered part of a word while deleting words
